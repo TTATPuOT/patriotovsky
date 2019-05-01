@@ -1,12 +1,25 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import {render} from 'react-dom';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import ScrollToTop from 'react-router-scroll-top';
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+import Index from './components/index/Index';
+import Cases from './components/cases/Cases';
+
+import {BrowserRouter, Route, Switch} from "react-router-dom";
+import NotFound from "./components/NotFound";
+
+function Root() {
+    return (
+        <BrowserRouter>
+            <ScrollToTop />
+            <Switch>
+                <Route exact path="/" component={Index} />
+                <Route exact path="/cases/:id" component={Cases} />
+                <Route component={NotFound} />
+            </Switch>
+        </BrowserRouter>
+    )
+}
+
+render( <Root />, document.getElementById('root'));
