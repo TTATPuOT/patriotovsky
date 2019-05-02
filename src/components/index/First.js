@@ -24,11 +24,17 @@ function First() {
             </h1>
 
             <h2>
-                Боты, онлайн-оплаты, API, онлайн-сервисы
+                Боты, платежи, API, онлайн-сервисы
                 <br />
                 PHP, Node.js, MySQL, React
                 <br />
                 4 года опыта работы
+                <br/><br/><br/>
+                <small>
+                    Скрипты и стили сайта не минифицированы,
+                    <br/>
+                    а исходный код доступен на <a rel="noopener noreferrer" href="https://github.com/TTATPuOT/patriotovsky" target="_blank">GitHub</a> для оценки
+                </small>
             </h2>
 
             <div className="socials">

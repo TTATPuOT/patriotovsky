@@ -137,6 +137,10 @@ section.first h2{
 	line-height: 136%;
 	font-weight: 500;
 }
+section.first h2 small{
+	display: block;
+	line-height: 120%;
+}
 section.first .socials a{
 	margin-left: 40px;
 }
@@ -401,14 +405,6 @@ footer a{
 	section.features .text{
 		font-size: 16px;
 	}
-}
-.animate-wrapper{
-	position: relative;
-}
-.animate-wrapper > div{
-	left: 0;
-	width: 100%;
-	position: absolute;
 }
 
 @media(max-width:870px) {
