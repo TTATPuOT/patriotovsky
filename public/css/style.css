@@ -229,6 +229,9 @@ section.other{
 	padding-top: 50px;
 	padding-bottom: 100px;
 }
+section.other.white{
+	background: #FFF;
+}
 section.other p:nth-child(1) {
 	font-weight: bold;
 	font-size: 36px;
@@ -320,6 +323,25 @@ section.description .text{
 	text-align: center;
 	color: #27396A;
 }
+section.description button{
+	border: 0;
+	border-radius: 3px;
+	padding: 10px 30px;
+	background: #121E42;
+	color: #FFF;
+	cursor: pointer;
+	margin-top: 20px;
+	font-size: 26px;
+	opacity: 0.8;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-ms-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+}
+section.description button:hover{
+	opacity: 1;
+}
 
 section.features{
 	padding-top: 55px;
@@ -385,6 +407,9 @@ section.features .center .head{
 	font-size: 36px;
 	line-height: 136%;
 	color: #121E42;
+}
+section.features .center img{
+	max-width: 100%;
 }
 
 footer{

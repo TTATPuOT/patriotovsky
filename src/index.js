@@ -5,6 +5,7 @@ import ScrollToTop from 'react-router-scroll-top';
 
 import Index from './components/index/Index';
 import Cases from './components/cases/Cases';
+import Products from './components/products/Products';
 
 import {BrowserRouter, Route, Switch} from "react-router-dom";
 import NotFound from "./components/NotFound";
@@ -16,6 +17,7 @@ function Root() {
             <Switch>
                 <Route exact path="/" component={Index} />
                 <Route exact path="/cases/:id" component={Cases} />
+                <Route exact path="/products/:id" component={Products} />
                 <Route component={NotFound} />
             </Switch>
         </BrowserRouter>

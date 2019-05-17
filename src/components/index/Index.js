@@ -3,6 +3,7 @@ import First from './First';
 import Stack from './Stack';
 import Cases from './Cases';
 import Other from './Other';
+import Buy from "./Buy";
 
 function Index() {
     return (
@@ -11,6 +12,7 @@ function Index() {
             <Stack />
             <Cases />
             <Other />
+            <Buy />
         </div>
     );
 }
