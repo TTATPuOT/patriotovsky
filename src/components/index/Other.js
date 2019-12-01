@@ -9,9 +9,9 @@ function Other() {
                 <h3><a rel="noopener noreferrer"  href="https://csgo-analytics.ru/" target="_blank">CSGO-Analytics.ru</a></h3>
                 <p>
                     Сервис для игроков в компьютерную онлайн-игру Counter-Strike: Global Offensive. <br/>
-                    Позвоялет записывать результаты и анализировать их. Используются элементы машинного обучения. И это
+                    Позволяет записывать результаты и анализировать их. Используются элементы машинного обучения. И это
                     всё на PHP, на секундочку. <br/>
-                    Так же, были написаны расширения для сервиса онлайн-трансляций Twitch. <br/>
+                    Также, были написаны расширения для сервиса онлайн-трансляций Twitch. <br/>
                     <a rel="noopener noreferrer"  href="https://www.twitch.tv/ext/zyt20fl337b4xbaisl72m23j5ipkce-0.1.0"
                        target="_blank">Оверлей</a> и <a rel="noopener noreferrer" href="https://www.twitch.tv/ext/fw3xzmoe7jgzc4w6mnwhznvq9rkr3g-0.0.2" target="_blank">панель</a>.
                 </p>
@@ -43,7 +43,7 @@ function Other() {
                     «<a rel="noopener noreferrer" href="https://youtube.com/easy4us" target="_blank">EasyForUs</a>» - канал об онлайн-игре
                     CS:GO <br/>
                     «<a rel="noopener noreferrer" href="https://www.youtube.com/channel/UCq4ecB0VFOcIQATiIJ_X7Vw" target="_blank">Антон Неверов об
-                    играх</a>» - канал о компьютерых играх в принципе
+                    играх</a>» - канал о компьютерных играх в принципе
                 </p>
             </div>
         </section>

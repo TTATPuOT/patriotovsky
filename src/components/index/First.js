@@ -38,10 +38,11 @@ function First() {
             </h2>
 
             <div className="socials">
-                <a rel="noopener noreferrer" href="https://bitbucket.org/TTATPuOT/" target="_blank"><img src="img/bb.svg" alt="BitBucket" /></a>
-                <a rel="noopener noreferrer" href="https://vk.com/ttatpuot" target="_blank"><img src="img/vk.svg" alt="Вконтакте" /></a>
-                <a rel="noopener noreferrer" href="https://www.linkedin.com/in/neverov12/" target="_blank"><img src="img/in.svg" alt="LinkedIn" /></a>
-                <a rel="noopener noreferrer" href="https://github.com/TTATPuOT" target="_blank"><img src="img/gh.svg" alt="GitHub" /></a>
+                <a rel="noopener noreferrer" href="https://bitbucket.org/TTATPuOT/" target="_blank"><img src="/img/bb.svg" alt="BitBucket" /></a>
+                <a rel="noopener noreferrer" href="https://vk.com/ttatpuot" target="_blank"><img src="/img/vk.svg" alt="Вконтакте" /></a>
+                <a rel="noopener noreferrer" href="https://www.linkedin.com/in/neverov12/" target="_blank"><img src="/img/in.svg" alt="LinkedIn" /></a>
+                <a rel="noopener noreferrer" href="https://github.com/TTATPuOT" target="_blank"><img src="/img/gh.svg" alt="GitHub" /></a>
+                <a rel="noopener noreferrer" href="https://toster.ru/user/TTATPuOT" target="_blank"><img src="/img/toster.svg" alt="Toster" /></a>
             </div>
 
             <div className="email"><a href="mailto:neverov12@gmail.com">neverov12@gmail.com</a></div>
