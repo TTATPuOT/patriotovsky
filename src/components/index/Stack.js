@@ -46,7 +46,11 @@ function Stack() {
                 </div>
             </div>
 
-            <div className="comment">*это мой стек, если что</div>
+            <div className="comment">
+                *это мой стек, если что.
+                <br/>
+                +Git, Kanban, само собой
+            </div>
         </section>
     );
 }

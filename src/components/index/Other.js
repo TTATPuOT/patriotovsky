@@ -6,6 +6,15 @@ function Other() {
             <p>Разработки «Для себя»</p>
 
             <div className="project">
+                <h3><a rel="noopener noreferrer" href="https://patriotovsky.ru/compare/" target="_blank">Сравнение цен</a></h3>
+                <p>
+                    В условиях самоизоляции и жёсткого кризиса правильным будет начать смотреть на стоимость продуктов в магазине. Чтобы делать это было проще - создал простое приложение на React, которое реализует методолгию PWA. Приложение сравнивает цены и вес продукта, чтобы определить, что выгоднее взять.<br/>
+                    Приложение можно удобно сохранить на главный экран смартфона и пользоватся как самым обычным приложением.<br/>
+                    <a rel="noopener noreferrer" href="https://github.com/TTATPuOT/price-compare" target="_blank">Исходный код</a> есть у меня на GitHub аккаунте.
+                </p>
+            </div>
+
+            <div className="project">
                 <h3><a rel="noopener noreferrer"  href="https://csgo-analytics.ru/" target="_blank">CSGO-Analytics.ru</a></h3>
                 <p>
                     Сервис для игроков в компьютерную онлайн-игру Counter-Strike: Global Offensive. <br/>
