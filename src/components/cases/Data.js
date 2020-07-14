@@ -1,11 +1,14 @@
 import React from 'react';
+import parkBgImage from '../../img/cases/park/bg.jpg';
+import pulsarBgImage from '../../img/cases/pulsar/bg.jpg';
+import photoBgImage from '../../img/cases/photo/bg.jpg';
 
 const Data = [
     {
         name: 'Онлайн оплата и вход в Wi-Fi для парка «Сказка»',
         stack: 'PHP, Smarty, MySQL, JavaScript',
         additional: 'Сбербанк, Uniteller',
-        banner: '/img/cases/park/bg.jpg',
+        banner: parkBgImage,
         short: (
             <p>
                 Заказчику необходимо было  разработать несколько сервисов для онлайн покупки билетов, пополнения карт предоплаты, а также для авторизации в Wi-Fi на территории парка.
@@ -28,7 +31,7 @@ const Data = [
             <div>
                 <div className="container">
                     <div className="row">
-                        <div className="column image" style={{backgroundImage: 'url(/img/cases/park/1.jpg)'}} />
+                        <div className="column image" style={{backgroundImage: `url(${require('../../img/cases/park/1.jpg')})`}} />
                         <div className="column">
                             <div className="text">
                                 Админка для управления и настройки оплаты, оповещений и технических данных.
@@ -38,7 +41,7 @@ const Data = [
                         </div>
                     </div>
                     <div className="row">
-                        <div className="column image right" style={{backgroundImage: 'url(/img/cases/park/2.jpg)'}} />
+                        <div className="column image right" style={{backgroundImage: `url(${require('../../img/cases/park/2.jpg')})`}} />
                         <div className="column">
                             <div className="text">
                                 Возможность указания времени сеанса, а также цены на каждое время каждого дня
@@ -50,7 +53,7 @@ const Data = [
                         </div>
                     </div>
                     <div className="row">
-                        <div className="column image" style={{backgroundImage: 'url(/img/cases/park/3.jpg)'}} />
+                        <div className="column image" style={{backgroundImage: `url(${require('../../img/cases/park/3.jpg')})`}} />
                         <div className="column">
                             <div className="text">
                                 Возможность пополнять карты предоплаты через эквайринг Себрбанка.
@@ -62,7 +65,7 @@ const Data = [
                         </div>
                     </div>
                     <div className="row">
-                        <div className="column image right" style={{backgroundImage: 'url(/img/cases/park/4.jpg)'}} />
+                        <div className="column image right" style={{backgroundImage: `url(${require('../../img/cases/park/4.jpg')})`}} />
                         <div className="column">
                             <div className="text">
                                 Система Wi-Fi авторизации с подтверждением телефона через СМС и возможностью собирать имя, email и телефон для дальнейших рассылок.
@@ -77,7 +80,7 @@ const Data = [
         name: 'Боты для аниме-магазина Pulsar.ua',
         stack: 'PHP, Smarty, MySQL, JavaScript',
         additional: 'Telegram API, Viber API, Facebook API, Вконтакте API',
-        banner: '/img/cases/pulsar/bg.jpg',
+        banner: pulsarBgImage,
         short: (
             <p>
                 Заказчик обратился с просьбой создать четыре бота для автоматизации поддержки покупателей в самых
@@ -106,7 +109,7 @@ const Data = [
             <div>
                 <div className="container">
                     <div className="row">
-                        <div className="column image" style={{backgroundImage: 'url(/img/cases/pulsar/1.jpg)'}} />
+                        <div className="column image" style={{backgroundImage: `url(${require('../../img/cases/pulsar/1.jpg')})`}} />
                         <div className="column">
                             <div className="text">
                                 Админка для управления и настройки всех ботов.
@@ -122,7 +125,7 @@ const Data = [
                         </div>
                     </div>
                     <div className="row">
-                        <div className="column image right" style={{backgroundImage: 'url(/img/cases/pulsar/2.jpg)'}} />
+                        <div className="column image right" style={{backgroundImage: `url(${require('../../img/cases/pulsar/2.jpg')})`}} />
                         <div className="column">
                             <div className="text">
                                 Удобный виджет для размещения на сайте
@@ -137,7 +140,7 @@ const Data = [
                 </div>
                 <div className="center">
                     <div className="head">Пример типового диалога</div>
-                    <img src="/img/cases/pulsar/3.jpg" alt="Пример типового диалога" />
+                    <img src={require('../../img/cases/pulsar/3.jpg')} alt="Пример типового диалога" />
                 </div>
             </div>
         )
@@ -146,7 +149,7 @@ const Data = [
         name: 'Сложный сервис и оптимизация фотостудии «Непоседы»',
         stack: 'PHP, Smarty, MySQL, JavaScript, Node.js, Electron',
         additional: 'AWS S3 API, SmartSheets API, Яндекс.Деньги API, Яндекс.Карты API, Axiomus API, IML API Telegram API',
-        banner: '/img/cases/photo/bg.jpg',
+        banner: photoBgImage,
         short: (
             <p>
                 Изначально заказчик использовал сервис онлайн таблиц SmartSheets (очень похожи на Google Таблицы) для ведения всех клиентов, отчётов и текущих заказов. Мне было предложено составить онлайн-расписание для фотографов, используя данные из SmartSheets, а также оптимизировать работу менеджеров и фотографов.
@@ -175,7 +178,7 @@ const Data = [
             <div>
                 <div className="container">
                     <div className="row">
-                        <div className="column image" style={{backgroundImage: 'url(/img/cases/photo/1.jpg)'}} />
+                        <div className="column image" style={{backgroundImage: `url(${require('../../img/cases/photo/1.jpg')})`}} />
                         <div className="column">
                             <div className="text">
                                 Основной сервис заказа фото поддерживает три типа съёмок:
@@ -193,7 +196,7 @@ const Data = [
                         </div>
                     </div>
                     <div className="row">
-                        <div className="column image right" style={{backgroundImage: 'url(/img/cases/photo/2.jpg)'}} />
+                        <div className="column image right" style={{backgroundImage: `url(${require('../../img/cases/photo/2.jpg')})`}} />
                         <div className="column">
                             <div className="text">
                                 Онлайн расписание, учитывающее фотографа, дату, адрес школы, нерабочие дни фотографа, время и количество детей
@@ -205,7 +208,7 @@ const Data = [
                         </div>
                     </div>
                     <div className="row">
-                        <div className="column image" style={{backgroundImage: 'url(/img/cases/photo/3.jpg)'}} />
+                        <div className="column image" style={{backgroundImage: `url(${require('../../img/cases/photo/3.jpg')})`}} />
                         <div className="column">
                             <div className="text">
                                 Оптимизация таблиц, автоматическое изменение и перенос строк, вставление данных в ячейки, создание оповещений и многое другое.
@@ -217,7 +220,7 @@ const Data = [
                         </div>
                     </div>
                     <div className="row">
-                        <div className="column image right" style={{backgroundImage: 'url(/img/cases/photo/4.jpg)'}} />
+                        <div className="column image right" style={{backgroundImage: `url(${require('../../img/cases/photo/4.jpg')})`}} />
                         <div className="column">
                             <div className="text">
                                 Карта встеч для менеджров позволяет быстро и просто узнать о том, какие на сегодня назначены встречи и по какому адресу
@@ -229,7 +232,7 @@ const Data = [
                         </div>
                     </div>
                     <div className="row">
-                        <div className="column image" style={{backgroundImage: 'url(/img/cases/photo/5.jpg)'}} />
+                        <div className="column image" style={{backgroundImage: `url(${require('../../img/cases/photo/5.jpg')})`}} />
                         <div className="column">
                             <div className="text">
                                 Три программы для Linux, Windows и Mac, написанные на Electron:

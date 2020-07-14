@@ -10,6 +10,8 @@ import Products from './components/products/Products';
 import {BrowserRouter, Route, Switch} from "react-router-dom";
 import NotFound from "./components/NotFound";
 
+import './style.css';
+
 function Root() {
     return (
         <BrowserRouter>

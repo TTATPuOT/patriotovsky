@@ -1,4 +1,7 @@
 import React from 'react';
+import parkLogo from '../../img/cases/park/logo.jpg';
+import pulsarLogo from '../../img/cases/pulsar/logo.jpg';
+import photoLogo from '../../img/cases/photo/logo.jpg';
 
 import {Link} from "react-router-dom";
 
@@ -15,14 +18,14 @@ function Cases() {
             <div className="container">
                 <div className="row">
                     <div className="column">
-                        <img src="img/cases/park/logo.jpg" alt="Московский парк Сказка" />
+                        <img src={parkLogo} alt="Московский парк Сказка" />
                         <p>
                             Система оплаты, бронирования<br/> и Wi-Fi авторизации для парка<br/> аттракционов в Москве
                         </p>
                         <Link to="/cases/1">Подробнее</Link>
                     </div>
                     <div className="column">
-                        <img src="img/cases/pulsar/logo.jpg" alt="Аниме-магазин Pulsar.ua" />
+                        <img src={pulsarLogo} alt="Аниме-магазин Pulsar.ua" />
                         <p>
                             Боты в мессенджерах для автоматизации<br/> ответов от самого большого аниме<br/> магазина на
                             Украине
@@ -30,7 +33,7 @@ function Cases() {
                         <Link to="/cases/2">Подробнее</Link>
                     </div>
                     <div className="column">
-                        <img src="img/cases/photo/logo.jpg" alt="Детская фотостудия Непоседы" />
+                        <img src={photoLogo} alt="Детская фотостудия Непоседы" />
                         <p>
                             Высоконагруженный сервис для клиентов<br/> и автоматизация бизнес-процессов<br/> для сети детских фотосутдий
                         </p>

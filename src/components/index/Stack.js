@@ -7,13 +7,15 @@ function Stack() {
                 <div className="container">
                     <p>PHP</p>
                     <p>
-                        Composer
-                        <br/>
-                        Smarty
-                        <br/>
                         WordPress
                         <br/>
                         OpenCart
+                        <br/>
+                        Composer
+                        <br/>
+                        Smarty/Blade
+                        <br/>
+                        Laravel
                         <br/>
                         MySQL
                     </p>
@@ -23,13 +25,15 @@ function Stack() {
                 <div className="container">
                     <p>JavaScript</p>
                     <p>
-                        HTML/CSS
+                        HTML, ванильный JS
+                        <br/>
+                        CSS/Less/SCSS/<b>Sass</b>
                         <br/>
                         Bootstrap 3/4
                         <br/>
                         NPM
                         <br/>
-                        Gulp
+                        Gulp/Webpack
                         <br/>
                         jQuery
                         <br/>

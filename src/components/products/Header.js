@@ -3,9 +3,10 @@ import React from 'react';
 import {Link} from "react-router-dom";
 
 function Header(props) {
-    let item = props.case;
+    const item = props.case;
+
     return (
-        <section className="banner" style={{backgroundImage: "url(" + item.banner + ")"}}>
+        <section className="banner" style={{backgroundImage: `url(${item.banner})`}}>
             <div className="header">
                 <Link to="/">На главную</Link>
                 patriotovsky.ru
