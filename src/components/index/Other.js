@@ -6,6 +6,14 @@ function Other() {
             <p>Разработки «Для себя»</p>
 
             <div className="project">
+                <h3><a rel="noopener noreferrer" href="https://whattoplay.fun/" target="_blank">What to play</a></h3>
+                <p>
+                    Небольшое приложение на React, которое работает на базе API IGDB для поиска интересных компьютерных игр.<br />
+                    <a rel="noopener noreferrer" href="https://github.com/TTATPuOT/what-to-play" target="_blank">Исходный код</a> есть у меня на GitHub аккаунте.
+                </p>
+            </div>
+
+            <div className="project">
                 <h3><a rel="noopener noreferrer" href="https://patriotovsky.ru/compare/" target="_blank">Сравнение цен</a></h3>
                 <p>
                     В условиях самоизоляции и жёсткого кризиса правильным будет начать смотреть на стоимость продуктов в магазине. Чтобы делать это было проще - создал простое приложение на React, которое реализует методолгию PWA. Приложение сравнивает цены и вес продукта, чтобы определить, что выгоднее взять.<br/>
