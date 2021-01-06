@@ -6,15 +6,13 @@ import Other from './Other';
 import Buy from "./Buy";
 
 function Index() {
-    return (
-        <div>
-            <First />
-            <Stack />
-            <Cases />
-            <Other />
-            <Buy />
-        </div>
-    );
+    return <>
+        <First />
+        <Stack />
+        <Cases />
+        <Other />
+        <Buy />
+    </>
 }
 
 export default Index;

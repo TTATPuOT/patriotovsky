@@ -18,26 +18,26 @@ function Cases() {
             <div className="container">
                 <div className="row">
                     <div className="column">
-                        <img src={parkLogo} alt="Московский парк Сказка" />
+                        <Link to="/cases/3"><img src={photoLogo} alt="Детская фотостудия Непоседы" /></Link>
+                        <p>
+                            Высоконагруженный сервис для клиентов<br/> и автоматизация бизнес-процессов<br/> для сети детских фотосутдий
+                        </p>
+                        <Link to="/cases/3">Подробнее</Link>
+                    </div>
+                    <div className="column">
+                        <Link to="/cases/1"><img src={parkLogo} alt="Московский парк Сказка" /></Link>
                         <p>
                             Система оплаты, бронирования<br/> и Wi-Fi авторизации для парка<br/> аттракционов в Москве
                         </p>
                         <Link to="/cases/1">Подробнее</Link>
                     </div>
                     <div className="column">
-                        <img src={pulsarLogo} alt="Аниме-магазин Pulsar.ua" />
+                        <Link to="/cases/2"><img src={pulsarLogo} alt="Аниме-магазин Pulsar.ua" /></Link>
                         <p>
                             Боты в мессенджерах для автоматизации<br/> ответов от самого большого аниме<br/> магазина на
                             Украине
                         </p>
-                        <Link to="/cases/2">Подробнее</Link>
-                    </div>
-                    <div className="column">
-                        <img src={photoLogo} alt="Детская фотостудия Непоседы" />
-                        <p>
-                            Высоконагруженный сервис для клиентов<br/> и автоматизация бизнес-процессов<br/> для сети детских фотосутдий
-                        </p>
-                        <Link to="/cases/3">Подробнее</Link>
+                        <Link>Подробнее</Link>
                     </div>
                 </div>
             </div>

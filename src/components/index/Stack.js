@@ -18,6 +18,8 @@ function Stack() {
                         Laravel
                         <br/>
                         MySQL
+                        <br/>
+                        Doctrine
                     </p>
                 </div>
             </div>
@@ -25,7 +27,7 @@ function Stack() {
                 <div className="container">
                     <p>JavaScript</p>
                     <p>
-                        HTML, ванильный JS
+                        HTML, JS, jQuery
                         <br/>
                         CSS/Less/SCSS/<b>Sass</b>
                         <br/>
@@ -35,8 +37,6 @@ function Stack() {
                         <br/>
                         Gulp/Webpack
                         <br/>
-                        jQuery
-                        <br/>
                         Node.js
                         <br/>
                         React
@@ -44,8 +44,6 @@ function Stack() {
                         Electron
                         <br/>
                         Express
-                        <br/>
-                        MongoDB
                     </p>
                 </div>
             </div>
@@ -53,7 +51,7 @@ function Stack() {
             <div className="comment">
                 *это мой стек, если что.
                 <br/>
-                +Git, Kanban, само собой
+                +git, канбан и ещё куча всего по мелочи
             </div>
         </section>
     );
